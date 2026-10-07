@@ -1,0 +1,58 @@
+/* =====================================================
+   EduBloom — Shared Theme
+   Warm & earthy, flat neo-brutalist design tokens.
+   Load this file BEFORE any page-specific stylesheet.
+===================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+:root{
+
+    /* ---------- typography ---------- */
+    --font-heading:'Space Grotesk', sans-serif;
+    --font-body:'Work Sans', sans-serif;
+
+    /* ---------- brand palette (warm & earthy, no blue) ---------- */
+    --primary:#C1603C;          /* terracotta   - buttons / links          */
+    --primary-dark:#A24B2C;     /* hover / pressed state                   */
+    --primary-deep:#7A3A22;     /* headings & strong accents               */
+    --primary-light:#F4D9C6;    /* light terracotta surfaces / badges      */
+
+    --secondary:#D9A441;        /* mustard gold - secondary accent         */
+    --secondary-dark:#B98325;
+
+    --accent-gold:#D9A441;      /* alias kept for older references         */
+    --accent-sage:#8A9B6E;      /* sage green   - decorative accent        */
+    --accent-sage-dark:#6B7A54;
+
+    --success:#7C9473;          /* sage green   - success states           */
+    --success-dark:#5F7857;
+
+    --danger:#B8462F;           /* brick / rust - destructive actions      */
+    --danger-dark:#8F3623;
+
+    /* ---------- text ---------- */
+    --text-dark:#33261E;        /* espresso brown - primary text           */
+    --text-muted:#7A6A5C;       /* warm taupe     - secondary text         */
+    --text-on-primary:#FFFFFF;
+
+    /* ---------- surfaces ---------- */
+    --surface:#FFFFFF;
+    --surface-alt:#F7EFE0;      /* warm cream card surface                 */
+    --border:#33261E;           /* bold dark border, neo-brutalist edges   */
+    --border-soft:#D8C9B4;      /* soft warm divider / input border        */
+
+    /* ---------- backgrounds ---------- */
+    --gradient-bg:#FBF3E7;                 /* flat warm cream page bg      */
+    --gradient-primary:var(--primary);     /* flat terracotta banner fill  */
+
+    /* ---------- elevation (hard, offset — no blur) ---------- */
+    --shadow-sm:4px 4px 0 var(--border);
+    --shadow-md:6px 6px 0 var(--border);
+    --shadow-lg:8px 8px 0 var(--border);
+
+    /* ---------- radius (kept tight/crisp) ---------- */
+    --radius-sm:4px;
+    --radius-md:6px;
+    --radius-lg:8px;
+}

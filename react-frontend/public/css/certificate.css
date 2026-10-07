@@ -1,0 +1,160 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:var(--font-body);
+}
+
+body{
+    background:var(--gradient-bg);
+    min-height:100vh;
+}
+
+/*================ HEADER ================*/
+
+header{
+background:var(--surface);
+color:var(--text-dark);
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:3px solid var(--border);
+}
+
+.logo{
+font-size:30px;
+font-weight:bold;
+}
+
+nav{
+display:flex;
+align-items:center;
+gap:25px;
+flex-wrap:wrap;
+}
+
+nav a{
+color:var(--text-dark);
+text-decoration:none;
+font-size:15px;
+}
+
+.logout-btn{
+background:var(--danger);
+color:white;
+border:3px solid var(--border);
+padding:8px 18px;
+border-radius:8px;
+cursor:pointer;
+font-size:14px;
+box-shadow:var(--shadow-sm);
+}
+
+.logout-btn:active{
+    transform:translate(4px,4px);
+    box-shadow:none;
+}
+
+
+/*================ CERTIFICATE ================*/
+
+.certificate-section{
+padding:50px 5%;
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:30px;
+}
+
+.certificate-wrap{
+max-width:1000px;
+width:100%;
+box-shadow:var(--shadow-lg);
+border-radius:10px;
+overflow:hidden;
+}
+
+#certificateCanvas{
+width:100%;
+height:auto;
+display:block;
+}
+
+.certificate-actions{
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.btn{
+padding:12px 28px;
+border:3px solid var(--border);
+border-radius:8px;
+font-size:15px;
+cursor:pointer;
+font-weight:600;
+box-shadow:var(--shadow-sm);
+}
+
+.btn:active{
+    transform:translate(4px,4px);
+    box-shadow:none;
+}
+
+
+.download-btn{
+background:var(--success);
+color:white;
+border:3px solid var(--border);
+box-shadow:var(--shadow-sm);
+}
+
+.download-btn:active{
+    transform:translate(4px,4px);
+    box-shadow:none;
+}
+
+
+.print-btn{
+background:var(--primary);
+color:white;
+border:3px solid var(--border);
+box-shadow:var(--shadow-sm);
+}
+
+.print-btn:active{
+    transform:translate(4px,4px);
+    box-shadow:none;
+}
+
+
+.back-btn{
+background:var(--border);
+color:var(--text-dark);
+border:3px solid var(--border);
+box-shadow:var(--shadow-sm);
+}
+
+.back-btn:active{
+    transform:translate(4px,4px);
+    box-shadow:none;
+}
+
+
+footer{
+text-align:center;
+color:var(--text-muted);
+padding:20px;
+font-size:14px;border-top:3px solid var(--border);}
+
+@media print{
+    header, .certificate-actions, footer{
+        display:none;border-top:3px solid var(--border);}
+}
+/*================ HEADINGS FONT ================*/
+
+h1,h2,h3,h4,.logo,.hero-text h1{
+    font-family:var(--font-heading);
+}

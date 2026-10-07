@@ -1,0 +1,427 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:var(--font-body);
+}
+
+body{
+
+ background:var(--gradient-bg);
+    min-height:100vh;
+
+}
+
+/*================ HEADER ================*/
+
+header{
+
+background:var(--surface);
+color:var(--text-dark);
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:3px solid var(--border);
+
+}
+
+.logo{
+
+font-size:30px;
+font-weight:bold;
+
+}
+
+nav{
+
+display:flex;
+gap:25px;
+flex-wrap:wrap;
+
+}
+
+nav a{
+
+text-decoration:none;
+color:var(--text-dark);
+font-weight:bold;
+transition:.3s;
+
+}
+
+nav a:hover{
+
+color:var(--primary-dark);
+
+}
+
+/*================ CONTAINER ================*/
+
+.container{
+
+width:90%;
+max-width:1400px;
+margin:35px auto;
+
+}
+
+/*================ HERO ================*/
+
+.hero{
+
+background:white;
+padding:35px;
+border-radius:8px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:40px;
+box-shadow:var(--shadow-lg);
+margin-bottom:30px;
+border:3px solid var(--border);}
+
+.hero-text{
+
+flex:1;
+
+}
+
+.hero-text h1{
+
+font-size:40px;
+color:var(--primary-deep);
+margin-bottom:18px;
+
+}
+
+.hero-text p{
+
+font-size:17px;
+line-height:30px;
+color:var(--text-muted);
+
+}
+
+.hero-image{
+
+flex:1;
+text-align:right;
+
+}
+
+.hero-image img{
+
+width:100%;
+max-width:420px;
+height:280px;
+object-fit:cover;
+border-radius:8px;
+box-shadow:var(--shadow-md);
+
+}
+
+/*================ COURSE INFO ================*/
+
+.info-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-bottom:30px;
+
+}
+
+.info-card{
+
+background:white;
+padding:25px;
+border-radius:8px;
+text-align:center;
+box-shadow:var(--shadow-md);
+border:3px solid var(--border);}
+
+.info-card h3{
+
+color:var(--primary-deep);
+margin-bottom:12px;
+
+}
+
+.info-card p{
+
+font-size:18px;
+font-weight:bold;
+color:var(--text-muted);
+
+}
+
+/*================ PROGRESS ================*/
+
+.progress-section{
+
+background:white;
+padding:30px;
+border-radius:8px;
+box-shadow:var(--shadow-md);
+margin-bottom:30px;
+border:3px solid var(--border);}
+
+.progress-section h2{
+
+color:var(--primary-deep);
+margin-bottom:20px;
+
+}
+
+.progress-bar{
+
+width:100%;
+height:25px;
+background:var(--border);
+border-radius:8px;
+overflow:hidden;
+
+}
+
+.progress{
+
+width:0%;
+height:100%;
+background:var(--success);
+transition:.5s;
+
+}
+
+.progress-text{
+
+margin-top:15px;
+font-size:18px;
+font-weight:bold;
+color:var(--primary-deep);
+
+}
+
+.start-btn{
+
+margin-top:20px;
+padding:15px 35px;
+background:var(--primary);
+color:white;
+border:3px solid var(--border);
+border-radius:10px;
+font-size:17px;
+cursor:pointer;
+font-weight:bold;
+box-shadow:var(--shadow-sm);
+}
+
+.start-btn:active{
+    transform:translate(4px,4px);
+    box-shadow:none;
+}
+
+
+.start-btn:hover{
+
+background:var(--primary-dark);
+
+}
+
+/*================ COMMON SECTION ================*/
+
+.section{
+
+background:white;
+padding:30px;
+border-radius:8px;
+box-shadow:var(--shadow-md);
+margin-bottom:30px;
+border:3px solid var(--border);}
+
+.section h2{
+
+color:var(--primary-deep);
+margin-bottom:20px;
+
+}
+
+.grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:20px;
+
+}
+
+/*================ FOOTER ================*/
+
+footer{
+
+background:var(--surface-alt);
+color:var(--text-dark);
+text-align:center;
+padding:20px;
+margin-top:40px;border-top:3px solid var(--border);}
+
+@media(max-width:900px){
+
+.hero{
+
+flex-direction:column;
+text-align:center;
+
+}
+
+.hero-image{
+
+text-align:center;
+
+}
+
+nav{
+
+justify-content:center;
+
+}
+
+}
+/*================ COURSE CONTENT CARDS ================*/
+
+.video-card,
+.material-card,
+.assignment-card,
+.quiz-card{
+
+background:var(--surface-alt);
+
+border-radius:8px;
+
+padding:20px;
+
+box-shadow:var(--shadow-md);
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:space-between;
+
+transition:.3s;
+
+height:100%;
+border:3px solid var(--border);}
+
+.video-card:hover,
+.material-card:hover,
+.assignment-card:hover,
+.quiz-card:hover{
+
+transform:translateY(-5px);
+
+}
+
+.video-card img{
+
+width:100%;
+
+height:200px;
+
+object-fit:cover;
+
+border-radius:10px;
+
+margin-bottom:15px;
+
+}
+
+.video-card h3,
+.material-card h3,
+.assignment-card h3,
+.quiz-card h3{
+
+color:var(--primary-deep);
+
+margin-bottom:12px;
+
+font-size:22px;
+
+}
+
+.material-card p,
+.assignment-card p,
+.quiz-card p{
+
+color:var(--text-muted);
+
+line-height:28px;
+
+margin-bottom:18px;
+
+flex:1;
+
+}
+
+.action-btn{
+
+display:inline-block;
+
+text-align:center;
+
+padding:12px 20px;
+
+background:var(--primary);
+
+color:white;
+
+text-decoration:none;
+
+border-radius:8px;
+
+font-weight:bold;
+
+transition:.3s;
+
+border:3px solid var(--border);
+
+cursor:pointer;
+box-shadow:var(--shadow-sm);
+}
+
+.action-btn:active{
+    transform:translate(4px,4px);
+    box-shadow:none;
+}
+
+
+.action-btn:hover{
+
+background:var(--primary-dark);
+
+}
+.logout-btn{
+    background:var(--danger);
+    color:white;
+    border:3px solid var(--border);
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:bold;
+    transition:.3s;
+box-shadow:var(--shadow-sm);
+}
+
+.logout-btn:active{
+    transform:translate(4px,4px);
+    box-shadow:none;
+}
+
+
+.logout-btn:hover{
+    background:var(--danger-dark);
+}
+/*================ HEADINGS FONT ================*/
+
+h1,h2,h3,h4,.logo,.hero-text h1{
+    font-family:var(--font-heading);
+}

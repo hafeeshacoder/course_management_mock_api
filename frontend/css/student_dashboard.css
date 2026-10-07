@@ -1,0 +1,305 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:var(--font-body);
+}
+
+body{
+    background:var(--gradient-bg);
+    min-height:100vh;
+}
+
+/*================ HEADER =================*/
+
+header{
+    background:var(--surface);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 8%;
+    border-bottom:3px solid var(--border);
+}
+
+.logo{
+    font-size:28px;
+    color:var(--text-dark);
+    font-weight:bold;
+}
+
+nav{
+    display:flex;
+    gap:30px;
+}
+
+nav a{
+    color:var(--text-dark);
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:var(--primary-dark);
+}
+
+/*================ CONTAINER =================*/
+
+.container{
+    width:90%;
+    margin:35px auto;
+    display:flex;
+    gap:25px;
+    align-items:stretch;
+}
+
+/*================ PROFILE =================*/
+
+.profile{
+    flex:3;
+    background:#fff;
+    border-radius:8px;
+    padding:30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:var(--shadow-lg);
+}
+
+.left-profile{
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+.left-profile img{
+    width:110px;
+    height:110px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid var(--primary);
+}
+
+.left-profile h2{
+    color:var(--primary-deep);
+    margin-bottom:18px;
+}
+
+/*================ STUDENT INFO =================*/
+
+.student-info{
+    margin-top:10px;
+}
+
+.student-info p{
+    display:flex;
+    margin-bottom:10px;
+    font-size:16px;
+    color:var(--text-dark);
+}
+
+.student-info b{
+    width:120px;
+    color:var(--primary-deep);
+}
+
+.student-info span{
+    color:var(--text-dark);
+    font-weight:600;
+}
+
+/*================ RIGHT IMAGE =================*/
+
+.profile>img{
+    width:220px;
+    height:180px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+/*================ WELCOME CARD =================*/
+
+.container>div:last-child{
+    flex:1;
+    background:linear-gradient(135deg,var(--primary),var(--primary-dark));
+    color:white;
+    border-radius:8px;
+    padding:30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    box-shadow:var(--shadow-lg);
+}
+
+.container>div:last-child h2{
+    margin-bottom:15px;
+}
+
+.container>div:last-child p{
+    line-height:28px;
+}
+
+/*================ STATS =================*/
+
+.stats{
+    width:90%;
+    margin:0 auto 30px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:8px;
+    padding:25px;
+    box-shadow:var(--shadow-md);
+    transition:.3s;
+border:3px solid var(--border);}
+
+.card:hover{
+    transform:translateY(-6px);
+}
+
+.card h3{
+    color:var(--primary-deep);
+    font-size:20px;
+    margin-bottom:15px;
+}
+
+.number{
+    font-size:38px;
+    color:var(--primary);
+    font-weight:bold;
+}
+
+/*================ MAIN =================*/
+
+.main{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:25px;
+}
+
+/*================ SECTION =================*/
+
+.section{
+    background:white;
+    border-radius:8px;
+    padding:25px;
+    box-shadow:var(--shadow-md);
+    margin-bottom:25px;
+border:3px solid var(--border);}
+
+.section h2{
+    color:var(--primary-deep);
+    margin-bottom:20px;
+}
+
+/*================ TABLE =================*/
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table th{
+    background:var(--primary);
+    color:white;
+    padding:15px;
+}
+
+table td{
+    padding:15px;
+    border-bottom:1px solid var(--border);
+}
+
+table tr:hover{
+    background:var(--surface-alt);
+}
+
+/*================ IMAGE =================*/
+
+.section img{
+    border-radius:8px;
+}
+
+/*================ QUICK OVERVIEW =================*/
+
+#quickOverview p{
+    margin-bottom:12px;
+    color:var(--text-dark);
+}
+
+#quickOverview b{
+    color:var(--primary-deep);
+}
+
+/*================ FOOTER =================*/
+
+footer{
+    margin-top:40px;
+    padding:20px;
+    text-align:center;
+    color:var(--text-dark);
+    background:var(--surface-alt);border-top:3px solid var(--border);}
+
+/*================ RESPONSIVE =================*/
+
+@media(max-width:1000px){
+
+    .container{
+        flex-direction:column;
+    }
+
+    .profile{
+        flex-direction:column;
+        text-align:center;
+        gap:25px;
+    }
+
+    .left-profile{
+        flex-direction:column;
+    }
+
+    .student-info p{
+        justify-content:center;
+    }
+
+    .student-info b{
+        width:110px;
+    }
+
+    .main{
+        grid-template-columns:1fr;
+    }
+}
+.logout-btn{
+    background:var(--danger);
+    color:white;
+    border:3px solid var(--border);
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:bold;
+    transition:.3s;
+box-shadow:var(--shadow-sm);
+}
+
+.logout-btn:active{
+    transform:translate(4px,4px);
+    box-shadow:none;
+}
+
+
+.logout-btn:hover{
+    background:var(--danger-dark);
+}
+/*================ HEADINGS FONT ================*/
+
+h1,h2,h3,h4,.logo,.hero-text h1{
+    font-family:var(--font-heading);
+}

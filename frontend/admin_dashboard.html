@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Admin Dashboard</title>
+
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/admin_dashboard.css">
+
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+<div class="logo">EduBloom Admin</div>
+
+<nav>
+
+
+
+
+<button id="logoutBtn" class="logout-btn">
+            Logout
+        </button>
+
+</nav>
+
+</header>
+
+<!-- ================= CONTAINER ================= -->
+
+<div class="container">
+
+<!-- ================= BANNER ================= -->
+
+<div class="banner">
+
+<div class="banner-text">
+
+<h1>Administrator Dashboard</h1>
+
+<p>
+
+Manage courses, student enrollments, reports and academic activities
+through a centralized administration panel.
+
+</p>
+
+</div>
+
+</div>
+
+<!-- ================= STATISTICS ================= -->
+
+<div class="stats">
+
+<div class="card">
+
+<h3>Total Courses</h3>
+
+<div class="number" id="totalCourses">0</div>
+
+</div>
+
+<div class="card">
+
+<h3>Total Students</h3>
+
+<div class="number" id="totalStudents">0</div>
+
+</div>
+
+<div class="card">
+
+<h3>Total Enrollments</h3>
+
+<div class="number" id="totalEnrollments">0</div>
+
+</div>
+
+<div class="card">
+
+<h3>Course Completions</h3>
+
+<div class="number" id="courseCompletions">0</div>
+
+</div>
+
+</div>
+
+<!-- ================= MAIN ================= -->
+
+<div class="main">
+
+<!-- ================= LEFT SECTION ================= -->
+
+<div>
+
+<!-- ================= COURSE MANAGEMENT ================= -->
+
+<div class="section">
+
+<h2>Course Management</h2>
+
+<div style="
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:20px;
+flex-wrap:wrap;
+gap:10px;
+">
+
+<button
+class="action-btn"
+onclick="window.location.href='add_course.html'">
+
+➕ Add New Course
+
+</button>
+
+<button
+class="action-btn"
+onclick="window.location.href='edit_course.html'">
+
+✏️ Edit / Delete Courses
+
+</button>
+
+</div>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Course Name</th>
+<th>Instructor</th>
+<th>Level</th>
+<th>Status</th>
+<th>Actions</th>
+
+</tr>
+
+</thead>
+
+<tbody id="courseTable">
+
+<!-- Loaded by admin_dashboard.js -->
+
+</tbody>
+
+</table>
+
+</div>
+<!-- ================= STUDENT ENROLLMENTS ================= -->
+
+<div class="section">
+
+<h2>Student Enrollments</h2>
+
+<div style="
+display:flex;
+justify-content:flex-end;
+margin-bottom:20px;
+">
+
+<button
+class="action-btn"
+onclick="window.location.href='manage_enrollment.html'">
+
+👨‍🎓 Manage Enrollments
+
+</button>
+
+</div>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Student Name</th>
+<th>Course</th>
+<th>Status</th>
+
+</tr>
+
+</thead>
+
+<tbody id="enrollmentTable">
+
+<!-- Loaded by admin_dashboard.js -->
+
+</tbody>
+
+</table>
+
+</div>
+
+<!-- ================= REPORTS OVERVIEW ================= -->
+
+<div class="section">
+
+<h2>Reports Overview</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Report</th>
+<th>Status</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Student Performance</td>
+<td>Available</td>
+
+</tr>
+
+<tr>
+
+<td>Course Completion</td>
+<td>Available</td>
+
+</tr>
+
+<tr>
+
+<td>Enrollment Summary</td>
+<td>Available</td>
+
+</tr>
+
+<tr>
+
+<td>Attendance Report</td>
+<td>Available</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<!-- ================= SYSTEM NOTIFICATIONS ================= -->
+
+<div class="section">
+
+<h2>System Notifications</h2>
+
+<div id="notificationContainer">
+
+<p style="
+text-align:center;
+color:gray;
+padding:30px;
+line-height:28px;
+">
+
+No new notifications available.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ================= RIGHT SECTION START ================= -->
+
+<div>
+    <!-- ================= ADMIN TOOLS ================= -->
+
+<div class="section">
+
+<h2>Admin Tools</h2>
+
+<div class="feature-card">
+
+<button
+class="action-btn"
+onclick="window.location.href='add_course.html'">
+
+➕ Add Course
+
+</button>
+
+</div>
+
+<div class="feature-card">
+
+<button
+class="action-btn"
+onclick="window.location.href='edit_course.html'">
+
+✏️ Edit / Delete Courses
+
+</button>
+
+</div>
+
+<div class="feature-card">
+
+<button
+class="action-btn"
+onclick="window.location.href='manage_enrollment.html'">
+
+👨‍🎓 Manage Enrollments
+
+</button>
+
+</div>
+
+</div>
+
+<!-- ================= DASHBOARD OVERVIEW ================= -->
+
+<div class="section">
+
+<h2>Dashboard Overview</h2>
+
+<img
+src="https://picsum.photos/450/230"
+alt="Dashboard Overview"
+style="width:100%;border-radius:12px;">
+
+<p style="
+text-align:center;
+margin-top:18px;
+color:gray;
+line-height:28px;
+">
+
+Analytics, charts, course statistics, enrollment trends and
+overall system insights will be displayed here after backend
+integration.
+
+</p>
+
+</div>
+
+</div>
+
+<!-- ================= END RIGHT SIDE ================= -->
+
+</div>
+
+<!-- ================= END MAIN ================= -->
+
+</div>
+
+<!-- ================= END CONTAINER ================= -->
+
+</div>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<p>
+
+© 2026 EduBloom | Administrator Panel
+
+</p>
+
+</footer>
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script src="js/admin_dashboard.js"></script>
+
+</body>
+</html>

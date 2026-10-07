@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Dashboard</title>
+
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/student_dashboard.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">EduBloom</div>
+
+    <nav>
+       
+        <a href="courses.html">Explore Courses</a>
+        <a href="my_courses.html">My Courses</a>
+<button id="logoutBtn" class="logout-btn">
+            Logout
+        </button>
+    </nav>
+
+</header>
+
+
+
+<div class="container">
+
+<div class="profile">
+
+
+
+    <div class="left-profile">
+
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500&auto=format&fit=crop">
+
+        <div>
+<h2>Student Dashboard</h2>
+
+<div class="student-info">
+
+    
+
+    <p><b>Email :</b> <span id="studentEmail"></span></p>
+
+   
+
+
+    <p><b>Department :</b> <span id="studentDepartment"></span></p>
+
+</div>
+
+
+        </div>
+
+    </div>
+
+    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&auto=format&fit=crop" width="220">
+
+</div>
+
+<div style="
+width:260px;
+background:linear-gradient(135deg,var(--primary),var(--primary-dark));
+color:white;
+padding:25px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 8px 20px rgba(0,0,0,.2);
+">
+
+<h2>Welcome!</h2>
+
+<p style="margin-top:15px;line-height:25px;">
+Manage your enrolled courses, monitor your learning progress, and stay updated with your academic activities from one place.
+</p>
+
+</div>
+
+</div>
+
+<div class="stats">
+
+<div class="card">
+    <h3>Courses Enrolled</h3>
+    <div class="number" id="enrolledCount">0</div>
+</div>
+
+<div class="card">
+    <h3>Courses Completed</h3>
+    <div class="number" id="completedCount">0</div>
+</div>
+
+<div class="card">
+    <h3>Assignments Submitted</h3>
+    <div class="number" id="assignmentCount">0</div>
+</div>
+
+<div class="card">
+    <h3>Overall Progress</h3>
+    <div class="number" id="overallProgress">0%</div>
+</div>
+</div>
+
+<div class="main">
+
+<div>
+
+<div class="section">
+
+<h2>My Courses</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Course</th>
+<th>Status</th>
+<th>Progress</th>
+
+</tr>
+
+</thead>
+
+<tbody id="courseTable">
+
+</tbody>
+
+</table>
+
+</div>
+
+<div class="section">
+
+<h2>Recent Notifications</h2>
+
+<div id="notificationContainer">
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+<div class="section">
+
+<h2>Learning Progress</h2>
+
+<img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=700&auto=format&fit=crop" width="100%">
+
+<p style="text-align:center;color:gray;margin-top:15px;">
+Progress analytics will be displayed here.
+</p>
+
+</div>
+
+<div class="section">
+
+<h2>Quick Overview</h2>
+
+<div id="quickOverview">
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 EduBloom
+
+</footer>
+<script src="js/student_dashboard.js"></script>
+</body>
+</html>

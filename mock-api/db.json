@@ -1,0 +1,981 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "courseName": "Python Programming",
+      "courseCode": "CS101",
+      "instructor": "Dr. John Smith",
+      "duration": "8 Weeks",
+      "level": "Beginner",
+      "category": "Programming",
+      "image": "https://cdn-icons-png.flaticon.com/512/5968/5968350.png",
+      "banner": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?auto=format&fit=crop&w=1200&q=80",
+      "status": "Active",
+      "overview": "Learn Python from beginner to advanced level.",
+      "description": "This comprehensive Python Programming course is designed for beginners as well as learners who want to strengthen their programming skills. Through practical examples and mini projects, students will gain confidence in solving real-world problems using Python.",
+      "mode": "Online",
+      "learningOutcomes": [
+        "Understand Python fundamentals",
+        "Write efficient Python programs",
+        "Develop console-based applications",
+        "Handle files and exceptions",
+        "Apply OOP concepts",
+        "Build real-world Python projects"
+      ],
+      "prerequisites": [
+        "Basic Computer Knowledge",
+        "Interest in Programming",
+        "Logical Thinking",
+        "No prior programming experience required"
+      ],
+      "modules": [
+        "Introduction to Python and Installation",
+        "Variables, Data Types and Operators",
+        "Conditional Statements and Loops",
+        "Functions and Modules",
+        "Strings, Lists, Tuples, Sets and Dictionaries",
+        "Object-Oriented Programming",
+        "File Handling and Exception Handling",
+        "Mini Project using Python"
+      ],
+      "skills": [
+        "Python Syntax",
+        "Problem Solving",
+        "Object-Oriented Programming",
+        "File Handling",
+        "Exception Handling",
+        "Debugging",
+        "Algorithm Development",
+        "Application Development"
+      ],
+      "instructorInfo": "Dr. John Smith is a senior software engineer and programming instructor with over 12 years of experience in Python development, automation, artificial intelligence, and full-stack application development. He has trained thousands of students and industry professionals.",
+      "videos": [
+        {
+          "title": "Python Full Course for Beginners",
+          "thumbnail": "https://img.youtube.com/vi/rfscVS0vtbw/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+        },
+        {
+          "title": "Python Object Oriented Programming",
+          "thumbnail": "https://img.youtube.com/vi/JeznW_7DlB0/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=JeznW_7DlB0"
+        },
+        {
+          "title": "Python Projects",
+          "thumbnail": "https://img.youtube.com/vi/8ext9G7xspg/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=8ext9G7xspg"
+        }
+      ],
+      "materials": [
+        {
+          "title": "Official Python Documentation",
+          "description": "Complete Python documentation.",
+          "link": "https://docs.python.org/3/"
+        },
+        {
+          "title": "Google Python Class",
+          "description": "Python course from Google.",
+          "link": "https://developers.google.com/edu/python"
+        },
+        {
+          "title": "Real Python",
+          "description": "Advanced Python tutorials.",
+          "link": "https://realpython.com/"
+        },
+        {
+          "title": "W3Schools Python",
+          "description": "Python examples and exercises.",
+          "link": "https://www.w3schools.com/python/"
+        }
+      ],
+      "maxStudents": 100,
+      "language": "English",
+      "certificate": "Yes",
+      "enrollmentType": "Open",
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "id": "2",
+      "courseName": "Web Development",
+      "courseCode": "WD101",
+      "instructor": "Sarah Johnson",
+      "duration": "10 Weeks",
+      "level": "Beginner",
+      "category": "Web Development",
+      "image": "https://cdn-icons-png.flaticon.com/512/1006/1006363.png",
+      "banner": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80",
+      "status": "Active",
+      "overview": "Create modern websites using HTML, CSS and JavaScript.",
+      "description": "This course introduces students to the complete web development process. Starting from HTML and CSS, learners will build responsive websites using JavaScript and Bootstrap while understanding industry-standard web development practices.",
+      "mode": "Online",
+      "learningOutcomes": [
+        "Develop responsive websites",
+        "Design attractive user interfaces",
+        "Create interactive webpages",
+        "Validate forms using JavaScript",
+        "Deploy static websites",
+        "Build complete frontend projects"
+      ],
+      "prerequisites": [
+        "Basic Computer Knowledge",
+        "Internet Browsing Skills",
+        "No Programming Experience Required",
+        "Interest in Website Development"
+      ],
+      "modules": [
+        "Introduction to Web Development",
+        "HTML5 Fundamentals",
+        "CSS3 Styling and Layouts",
+        "Responsive Web Design",
+        "Bootstrap Framework",
+        "JavaScript Basics",
+        "DOM Manipulation",
+        "Forms and Validation",
+        "Website Deployment",
+        "Responsive Website Project"
+      ],
+      "skills": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Bootstrap",
+        "Responsive Design",
+        "DOM Manipulation",
+        "Website Development",
+        "Frontend Development"
+      ],
+      "instructorInfo": "Sarah Johnson is a frontend developer and UI designer with over 10 years of experience building responsive websites and modern web applications. She has trained students in HTML, CSS, JavaScript, Bootstrap, and frontend development best practices.",
+      "videos": [
+        {
+          "title": "HTML Full Course",
+          "thumbnail": "https://img.youtube.com/vi/pQN-pnXPaVg/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=pQN-pnXPaVg"
+        },
+        {
+          "title": "CSS Full Course",
+          "thumbnail": "https://img.youtube.com/vi/1Rs2ND1ryYc/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=1Rs2ND1ryYc"
+        },
+        {
+          "title": "JavaScript Full Course",
+          "thumbnail": "https://img.youtube.com/vi/PkZNo7MFNFg/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=PkZNo7MFNFg"
+        }
+      ],
+      "materials": [
+        {
+          "title": "MDN HTML",
+          "description": "Official HTML documentation.",
+          "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        },
+        {
+          "title": "MDN CSS",
+          "description": "Official CSS documentation.",
+          "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        },
+        {
+          "title": "MDN JavaScript",
+          "description": "Official JavaScript documentation.",
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+          "title": "Bootstrap Documentation",
+          "description": "Bootstrap official guide.",
+          "link": "https://getbootstrap.com/docs/"
+        }
+      ],
+      "maxStudents": 100,
+      "language": "English",
+      "certificate": "Yes",
+      "enrollmentType": "Open",
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "id": "3",
+      "courseName": "Artificial Intelligence",
+      "courseCode": "AI101",
+      "instructor": "Dr. Sophia Martin",
+      "duration": "12 Weeks",
+      "level": "Advanced",
+      "category": "Artificial Intelligence",
+      "image": "https://cdn-icons-png.flaticon.com/512/4712/4712027.png",
+      "banner": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80",
+      "status": "Active",
+      "overview": "Learn the fundamentals of intelligent systems and AI applications.",
+      "description": "This Artificial Intelligence course provides a comprehensive introduction to intelligent systems and modern AI technologies. Students will explore how machines simulate human intelligence through practical examples, algorithms, and real-world AI applications.",
+      "mode": "Online",
+      "learningOutcomes": [
+        "Understand AI fundamentals",
+        "Design intelligent solutions",
+        "Apply AI search techniques",
+        "Develop basic AI models",
+        "Analyze real-world AI applications",
+        "Build AI-based mini projects"
+      ],
+      "prerequisites": [
+        "Basic Programming Knowledge",
+        "Logical Thinking",
+        "Mathematics Fundamentals",
+        "Interest in Artificial Intelligence"
+      ],
+      "modules": [
+        "Introduction to Artificial Intelligence",
+        "History and Applications of AI",
+        "Intelligent Agents",
+        "Problem Solving using Search",
+        "Knowledge Representation",
+        "Reasoning and Expert Systems",
+        "Natural Language Processing",
+        "Computer Vision Fundamentals",
+        "Ethics in Artificial Intelligence",
+        "Artificial Intelligence Mini Project"
+      ],
+      "skills": [
+        "Artificial Intelligence",
+        "Problem Solving",
+        "Knowledge Representation",
+        "Reasoning",
+        "Natural Language Processing",
+        "Computer Vision",
+        "AI Algorithms",
+        "Decision Making"
+      ],
+      "instructorInfo": "Dr. Sophia Martin is an Artificial Intelligence researcher with over 13 years of experience in intelligent systems, machine learning, robotics, and AI-driven software development. She has worked on research projects and industry AI solutions across healthcare, finance, and education.",
+      "videos": [
+        {
+          "title": "Artificial Intelligence Full Course",
+          "thumbnail": "https://img.youtube.com/vi/JMUxmLyrhSk/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=JMUxmLyrhSk"
+        },
+        {
+          "title": "Artificial Intelligence Explained",
+          "thumbnail": "https://img.youtube.com/vi/ad79nYk2keg/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=ad79nYk2keg"
+        },
+        {
+          "title": "Natural Language Processing",
+          "thumbnail": "https://img.youtube.com/vi/fOvTtapxa9c/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=fOvTtapxa9c"
+        }
+      ],
+      "materials": [
+        {
+          "title": "Google AI",
+          "description": "Official Google AI resources.",
+          "link": "https://ai.google/"
+        },
+        {
+          "title": "TensorFlow",
+          "description": "Deep Learning documentation.",
+          "link": "https://www.tensorflow.org/"
+        },
+        {
+          "title": "OpenCV Documentation",
+          "description": "Computer Vision library.",
+          "link": "https://opencv.org/"
+        },
+        {
+          "title": "DeepLearning.AI",
+          "description": "AI learning platform.",
+          "link": "https://www.deeplearning.ai/"
+        }
+      ],
+      "maxStudents": 100,
+      "language": "English",
+      "certificate": "Yes",
+      "enrollmentType": "Open",
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "id": "4",
+      "courseName": "Java Programming",
+      "courseCode": "CS102",
+      "instructor": "Prof. Michael Brown",
+      "duration": "10 Weeks",
+      "level": "Intermediate",
+      "category": "Programming",
+      "image": "https://cdn-icons-png.flaticon.com/512/226/226777.png",
+      "banner": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
+      "status": "Active",
+      "overview": "Master Java and object-oriented programming.",
+      "description": "This Java Programming course provides a strong foundation in object-oriented programming and application development. Students will learn core Java concepts through practical coding exercises, hands-on examples, and mini projects suitable for academic and industry requirements.",
+      "mode": "Online",
+      "learningOutcomes": [
+        "Understand Core Java concepts",
+        "Develop object-oriented applications",
+        "Handle exceptions effectively",
+        "Work with Java Collections",
+        "Create multithreaded programs",
+        "Build Java-based projects"
+      ],
+      "prerequisites": [
+        "Basic Computer Knowledge",
+        "Programming Fundamentals (Preferred)",
+        "Logical Thinking",
+        "Interest in Software Development"
+      ],
+      "modules": [
+        "Introduction to Java and JDK Installation",
+        "Variables, Data Types and Operators",
+        "Control Statements and Loops",
+        "Methods and Arrays",
+        "Object-Oriented Programming",
+        "Inheritance, Polymorphism and Abstraction",
+        "Exception Handling and File Handling",
+        "Collections Framework",
+        "Multithreading",
+        "Mini Project using Java"
+      ],
+      "skills": [
+        "Core Java",
+        "Object-Oriented Programming",
+        "Collections Framework",
+        "Exception Handling",
+        "File Handling",
+        "Multithreading",
+        "JDBC Basics",
+        "Java Application Development"
+      ],
+      "instructorInfo": "Prof. Michael Brown has more than 15 years of experience in Java development, enterprise application design, and software engineering. He has mentored university students and corporate professionals in Java technologies.",
+      "videos": [
+        {
+          "title": "Java Full Course",
+          "thumbnail": "https://img.youtube.com/vi/grEKMHGYyns/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=grEKMHGYyns"
+        },
+        {
+          "title": "Java OOP Concepts",
+          "thumbnail": "https://img.youtube.com/vi/eIrMbAQSU34/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=eIrMbAQSU34"
+        },
+        {
+          "title": "Java Collections Framework",
+          "thumbnail": "https://img.youtube.com/vi/WN9TdHpGOXk/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=WN9TdHpGOXk"
+        }
+      ],
+      "materials": [
+        {
+          "title": "Oracle Java Documentation",
+          "description": "Official Java Documentation.",
+          "link": "https://docs.oracle.com/en/java/"
+        },
+        {
+          "title": "W3Schools Java",
+          "description": "Java Tutorial.",
+          "link": "https://www.w3schools.com/java/"
+        },
+        {
+          "title": "Baeldung Java",
+          "description": "Advanced Java tutorials.",
+          "link": "https://www.baeldung.com/"
+        },
+        {
+          "title": "GeeksforGeeks Java",
+          "description": "Java programming articles.",
+          "link": "https://www.geeksforgeeks.org/java/"
+        }
+      ],
+      "maxStudents": 100,
+      "language": "English",
+      "certificate": "Yes",
+      "enrollmentType": "Open",
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "id": "5",
+      "courseName": "Database Management System",
+      "courseCode": "DB101",
+      "instructor": "Dr. David Wilson",
+      "duration": "8 Weeks",
+      "level": "Intermediate",
+      "category": "Database",
+      "image": "https://cdn-icons-png.flaticon.com/512/4248/4248443.png",
+      "banner": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+      "status": "Active",
+      "overview": "Learn SQL and MySQL database concepts.",
+      "description": "This course provides a comprehensive understanding of database systems used in software applications. Students will learn database modeling, SQL queries, normalization techniques, transactions, and practical database implementation through hands-on exercises.",
+      "mode": "Online",
+      "learningOutcomes": [
+        "Design relational databases",
+        "Write SQL queries confidently",
+        "Normalize database tables",
+        "Implement database security",
+        "Optimize database performance",
+        "Develop database-driven applications"
+      ],
+      "prerequisites": [
+        "Basic Computer Knowledge",
+        "Logical Thinking",
+        "Basic Programming Knowledge (Preferred)",
+        "Interest in Database Technologies"
+      ],
+      "modules": [
+        "Introduction to Database Systems",
+        "ER Model and Database Design",
+        "Relational Database Concepts",
+        "SQL Basics",
+        "Advanced SQL Queries",
+        "Normalization",
+        "Transactions and Concurrency",
+        "Database Security and Backup",
+        "Indexing and Optimization",
+        "Mini Database Project"
+      ],
+      "skills": [
+        "Database Design",
+        "SQL",
+        "Normalization",
+        "ER Diagram",
+        "Transactions",
+        "Joins",
+        "Stored Procedures",
+        "Database Administration"
+      ],
+      "instructorInfo": "Dr. David Wilson is a database architect with over 14 years of experience in SQL Server, MySQL, PostgreSQL, Oracle Database, and enterprise database design. He has worked on large-scale database systems across multiple industries.",
+      "videos": [
+        {
+          "title": "DBMS Complete Course",
+          "thumbnail": "https://img.youtube.com/vi/HXV3zeQKqGY/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+        },
+        {
+          "title": "SQL Tutorial",
+          "thumbnail": "https://img.youtube.com/vi/7S_tz1z_5bA/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=7S_tz1z_5bA"
+        },
+        {
+          "title": "Normalization in DBMS",
+          "thumbnail": "https://img.youtube.com/vi/GFQaEYEc8_8/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=GFQaEYEc8_8"
+        }
+      ],
+      "materials": [
+        {
+          "title": "MySQL Documentation",
+          "description": "Official MySQL documentation.",
+          "link": "https://dev.mysql.com/doc/"
+        },
+        {
+          "title": "PostgreSQL Documentation",
+          "description": "Official PostgreSQL documentation.",
+          "link": "https://www.postgresql.org/docs/"
+        },
+        {
+          "title": "SQLBolt",
+          "description": "Interactive SQL tutorial.",
+          "link": "https://sqlbolt.com/"
+        },
+        {
+          "title": "W3Schools SQL",
+          "description": "SQL examples and exercises.",
+          "link": "https://www.w3schools.com/sql/"
+        }
+      ],
+      "maxStudents": 100,
+      "language": "English",
+      "certificate": "Yes",
+      "enrollmentType": "Open",
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "id": "6",
+      "courseName": "Machine Learning",
+      "courseCode": "ML101",
+      "instructor": "Dr. Emily Davis",
+      "duration": "12 Weeks",
+      "level": "Advanced",
+      "category": "Machine Learning",
+      "image": "https://cdn-icons-png.flaticon.com/512/2103/2103633.png",
+      "banner": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80",
+      "status": "Active",
+      "overview": "Introduction to AI and predictive models.",
+      "description": "This course introduces learners to the exciting world of Machine Learning. Students will understand how intelligent systems learn from data and build predictive models using industry-standard tools and real-world datasets.",
+      "mode": "Online",
+      "learningOutcomes": [
+        "Understand Machine Learning concepts",
+        "Prepare datasets for training",
+        "Build predictive models",
+        "Evaluate model performance",
+        "Apply supervised and unsupervised learning",
+        "Develop Machine Learning applications"
+      ],
+      "prerequisites": [
+        "Basic Python Programming",
+        "Basic Mathematics",
+        "Statistics Fundamentals",
+        "Interest in Artificial Intelligence"
+      ],
+      "modules": [
+        "Introduction to Machine Learning",
+        "Python for Machine Learning",
+        "Data Collection and Preprocessing",
+        "Feature Engineering",
+        "Supervised Learning Algorithms",
+        "Unsupervised Learning Algorithms",
+        "Model Evaluation",
+        "Regression Techniques",
+        "Classification Techniques",
+        "Machine Learning Mini Project"
+      ],
+      "skills": [
+        "Python",
+        "Data Analysis",
+        "Machine Learning",
+        "Feature Engineering",
+        "Regression",
+        "Classification",
+        "Model Evaluation",
+        "Predictive Analytics"
+      ],
+      "instructorInfo": "Dr. Emily Davis is a Machine Learning Engineer and Data Scientist with over 11 years of experience in predictive analytics, artificial intelligence, and deep learning. She has developed AI solutions for healthcare, finance, and education industries.",
+      "videos": [
+        {
+          "title": "Machine Learning Full Course",
+          "thumbnail": "https://img.youtube.com/vi/i_LwzRVP7bg/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=i_LwzRVP7bg"
+        },
+        {
+          "title": "Scikit-Learn Tutorial",
+          "thumbnail": "https://img.youtube.com/vi/0Lt9w-BxKFQ/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=0Lt9w-BxKFQ"
+        },
+        {
+          "title": "Machine Learning Project",
+          "thumbnail": "https://img.youtube.com/vi/7eh4d6sabA0/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=7eh4d6sabA0"
+        }
+      ],
+      "materials": [
+        {
+          "title": "Scikit-learn Documentation",
+          "description": "Official Scikit-learn documentation.",
+          "link": "https://scikit-learn.org/"
+        },
+        {
+          "title": "TensorFlow Documentation",
+          "description": "Official TensorFlow documentation.",
+          "link": "https://www.tensorflow.org/"
+        },
+        {
+          "title": "Google ML Crash Course",
+          "description": "Free ML course by Google.",
+          "link": "https://developers.google.com/machine-learning/crash-course"
+        },
+        {
+          "title": "Kaggle Learn",
+          "description": "Interactive ML tutorials.",
+          "link": "https://www.kaggle.com/learn"
+        }
+      ],
+      "maxStudents": 100,
+      "language": "English",
+      "certificate": "Yes",
+      "enrollmentType": "Open",
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "id": "7",
+      "courseName": "Cyber Security",
+      "courseCode": "CY101",
+      "instructor": "Daniel Lee",
+      "duration": "10 Weeks",
+      "level": "Intermediate",
+      "category": "Cyber Security",
+      "image": "https://cdn-icons-png.flaticon.com/512/3064/3064197.png",
+      "banner": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&q=80",
+      "status": "Active",
+      "overview": "Protect systems against cyber threats.",
+      "description": "This course introduces learners to the fundamentals of Cyber Security and modern security practices. Students will understand cyber threats, security mechanisms, encryption techniques, penetration testing concepts, and methods used to secure computer systems and networks.",
+      "mode": "Online",
+      "learningOutcomes": [
+        "Understand cyber threats",
+        "Secure computer networks",
+        "Implement security best practices",
+        "Identify common vulnerabilities",
+        "Apply ethical hacking concepts",
+        "Protect digital systems"
+      ],
+      "prerequisites": [
+        "Basic Computer Knowledge",
+        "Basic Networking Concepts",
+        "Logical Thinking",
+        "Interest in Information Security"
+      ],
+      "modules": [
+        "Introduction to Cyber Security",
+        "Network Security Fundamentals",
+        "Cryptography Basics",
+        "Authentication and Authorization",
+        "Web Application Security",
+        "Ethical Hacking Concepts",
+        "Malware and Ransomware",
+        "Cloud Security",
+        "Cyber Security Best Practices",
+        "Cyber Security Mini Project"
+      ],
+      "skills": [
+        "Network Security",
+        "Cyber Security",
+        "Ethical Hacking",
+        "Cryptography",
+        "Web Security",
+        "Cloud Security",
+        "Risk Assessment",
+        "Incident Response"
+      ],
+      "instructorInfo": "Daniel Lee is a Cyber Security Consultant with over 12 years of experience in network security, penetration testing, cloud security, vulnerability assessment, and ethical hacking. He has worked with organizations to strengthen cybersecurity and train professionals in information security.",
+      "videos": [
+        {
+          "title": "Cyber Security Full Course",
+          "thumbnail": "https://img.youtube.com/vi/U_P23SqJaDc/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=U_P23SqJaDc"
+        },
+        {
+          "title": "Ethical Hacking Tutorial",
+          "thumbnail": "https://img.youtube.com/vi/3Kq1MIfTWCE/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=3Kq1MIfTWCE"
+        },
+        {
+          "title": "Network Security Basics",
+          "thumbnail": "https://img.youtube.com/vi/inWWhr5tnEA/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=inWWhr5tnEA"
+        }
+      ],
+      "materials": [
+        {
+          "title": "OWASP",
+          "description": "Official OWASP Web Security Guide.",
+          "link": "https://owasp.org/"
+        },
+        {
+          "title": "NIST Cybersecurity Framework",
+          "description": "Official Cybersecurity Framework.",
+          "link": "https://www.nist.gov/cyberframework"
+        },
+        {
+          "title": "Cisco Security",
+          "description": "Network Security Learning Resources.",
+          "link": "https://www.cisco.com/"
+        },
+        {
+          "title": "Kali Linux Documentation",
+          "description": "Official Kali Linux Documentation.",
+          "link": "https://www.kali.org/docs/"
+        }
+      ],
+      "maxStudents": 100,
+      "language": "English",
+      "certificate": "Yes",
+      "enrollmentType": "Open",
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "id": "8",
+      "courseName": "Cloud Computing",
+      "courseCode": "CC101",
+      "instructor": "James Anderson",
+      "duration": "8 Weeks",
+      "level": "Intermediate",
+      "category": "Cloud Computing",
+      "image": "https://cdn-icons-png.flaticon.com/512/4144/4144513.png",
+      "banner": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
+      "status": "Active",
+      "overview": "Learn cloud technologies and deploy scalable applications.",
+      "description": "This course provides a comprehensive understanding of Cloud Computing technologies. Students will explore cloud architecture, virtualization, Infrastructure as a Service (IaaS), Platform as a Service (PaaS), Software as a Service (SaaS), cloud deployment strategies, and practical cloud-based solutions.",
+      "mode": "Online",
+      "learningOutcomes": [
+        "Understand Cloud Computing concepts",
+        "Differentiate cloud service models",
+        "Deploy cloud-based solutions",
+        "Implement cloud security practices",
+        "Manage cloud resources",
+        "Develop cloud-based applications"
+      ],
+      "prerequisites": [
+        "Basic Computer Knowledge",
+        "Basic Networking Concepts",
+        "Fundamental Programming Knowledge",
+        "Interest in Cloud Technologies"
+      ],
+      "modules": [
+        "Introduction to Cloud Computing",
+        "Cloud Architecture",
+        "Virtualization Concepts",
+        "Cloud Service Models (IaaS, PaaS, SaaS)",
+        "Cloud Deployment Models",
+        "Cloud Storage and Networking",
+        "Cloud Security",
+        "Cloud Monitoring and Management",
+        "Cloud Platforms Overview",
+        "Cloud Computing Mini Project"
+      ],
+      "skills": [
+        "Cloud Computing",
+        "Virtualization",
+        "Cloud Architecture",
+        "AWS Fundamentals",
+        "Microsoft Azure Basics",
+        "Google Cloud Platform",
+        "Cloud Security",
+        "Cloud Deployment"
+      ],
+      "instructorInfo": "James Anderson is a Cloud Solutions Architect with over 14 years of experience in AWS, Microsoft Azure, Google Cloud Platform, virtualization, enterprise cloud migration, and cloud infrastructure management. He has trained professionals in designing and deploying scalable cloud solutions.",
+      "videos": [
+        {
+          "title": "Cloud Computing Full Course",
+          "thumbnail": "https://img.youtube.com/vi/2LaAJq1lB1Q/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=2LaAJq1lB1Q"
+        },
+        {
+          "title": "AWS for Beginners",
+          "thumbnail": "https://img.youtube.com/vi/ulprqHHWlng/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=ulprqHHWlng"
+        },
+        {
+          "title": "Microsoft Azure Tutorial",
+          "thumbnail": "https://img.youtube.com/vi/NKEFWyqJ5XA/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=NKEFWyqJ5XA"
+        }
+      ],
+      "materials": [
+        {
+          "title": "AWS Documentation",
+          "description": "Official AWS Documentation.",
+          "link": "https://docs.aws.amazon.com/"
+        },
+        {
+          "title": "Microsoft Learn Azure",
+          "description": "Azure Learning Platform.",
+          "link": "https://learn.microsoft.com/azure/"
+        },
+        {
+          "title": "Google Cloud Documentation",
+          "description": "Official Google Cloud Docs.",
+          "link": "https://cloud.google.com/docs"
+        },
+        {
+          "title": "Docker Documentation",
+          "description": "Official Docker Guide.",
+          "link": "https://docs.docker.com/"
+        }
+      ],
+      "maxStudents": 100,
+      "language": "English",
+      "certificate": "Yes",
+      "enrollmentType": "Open",
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "id": "9",
+      "courseName": "Mobile App Development",
+      "courseCode": "MD101",
+      "instructor": "Olivia Taylor",
+      "duration": "10 Weeks",
+      "level": "Intermediate",
+      "category": "Mobile App Development",
+      "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+      "banner": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=1200&q=80",
+      "status": "Active",
+      "overview": "Build Android applications with modern user interfaces.",
+      "description": "This course provides a complete introduction to Mobile App Development. Students will learn mobile UI design, activity lifecycle, layouts, navigation, database integration, REST API communication, testing, debugging, and application deployment through practical projects.",
+      "mode": "Online",
+      "learningOutcomes": [
+        "Design mobile user interfaces",
+        "Develop Android applications",
+        "Connect applications with APIs",
+        "Store and retrieve data",
+        "Deploy mobile applications",
+        "Build complete mobile projects"
+      ],
+      "prerequisites": [
+        "Basic Programming Knowledge",
+        "Computer Fundamentals",
+        "Problem Solving Skills",
+        "Interest in Mobile Technologies"
+      ],
+      "modules": [
+        "Introduction to Mobile Applications",
+        "Mobile Development Environment Setup",
+        "User Interface Design",
+        "Layouts and Navigation",
+        "Activities and Intents",
+        "Working with APIs",
+        "SQLite and Firebase Basics",
+        "User Authentication",
+        "Testing and Deployment",
+        "Mobile App Project"
+      ],
+      "skills": [
+        "Android Development",
+        "UI/UX Design",
+        "Java/Kotlin Basics",
+        "REST API Integration",
+        "Firebase",
+        "SQLite",
+        "App Deployment",
+        "Mobile Application Development"
+      ],
+      "instructorInfo": "Olivia Taylor is a Mobile Application Developer with over 10 years of experience in Android development, Flutter applications, mobile UI design, Firebase integration, and cross-platform application development. She has developed and deployed numerous enterprise and consumer mobile applications.",
+      "videos": [
+        {
+          "title": "Android Development Full Course",
+          "thumbnail": "https://img.youtube.com/vi/fis26HvvDII/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=fis26HvvDII"
+        },
+        {
+          "title": "Flutter Tutorial",
+          "thumbnail": "https://img.youtube.com/vi/VPvVD8t02U8/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=VPvVD8t02U8"
+        },
+        {
+          "title": "Firebase for Beginners",
+          "thumbnail": "https://img.youtube.com/vi/9kRgVxULbag/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=9kRgVxULbag"
+        }
+      ],
+      "materials": [
+        {
+          "title": "Android Developers",
+          "description": "Official Android documentation.",
+          "link": "https://developer.android.com/"
+        },
+        {
+          "title": "Flutter Documentation",
+          "description": "Official Flutter documentation.",
+          "link": "https://docs.flutter.dev/"
+        },
+        {
+          "title": "Firebase Documentation",
+          "description": "Firebase official guide.",
+          "link": "https://firebase.google.com/docs"
+        },
+        {
+          "title": "Kotlin Documentation",
+          "description": "Official Kotlin documentation.",
+          "link": "https://kotlinlang.org/docs/"
+        }
+      ],
+      "maxStudents": 100,
+      "language": "English",
+      "certificate": "Yes",
+      "enrollmentType": "Open",
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "id": "10",
+      "courseName": "DevOps",
+      "courseCode": "DO101",
+      "instructor": "William Thomas",
+      "duration": "8 Weeks",
+      "level": "Intermediate",
+      "category": "DevOps",
+      "image": "https://cdn-icons-png.flaticon.com/512/2721/2721297.png",
+      "banner": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=1200&q=80",
+      "status": "Active",
+      "overview": "Master modern software deployment and automation tools.",
+      "description": "This course introduces learners to DevOps principles and industry practices. Students will understand how development and operations teams collaborate using automation tools, CI/CD pipelines, Docker containers, Kubernetes orchestration, Git, Jenkins, and cloud platforms.",
+      "mode": "Online",
+      "learningOutcomes": [
+        "Understand DevOps lifecycle",
+        "Create CI/CD pipelines",
+        "Deploy containerized applications",
+        "Use Git efficiently",
+        "Automate software deployment",
+        "Build complete DevOps workflows"
+      ],
+      "prerequisites": [
+        "Basic Programming Knowledge",
+        "Basic Linux Commands",
+        "Computer Networks Basics",
+        "Interest in Cloud Technologies"
+      ],
+      "modules": [
+        "Introduction to DevOps",
+        "Version Control using Git",
+        "GitHub Workflow",
+        "Continuous Integration",
+        "Continuous Deployment",
+        "Docker Containers",
+        "Kubernetes Basics",
+        "Cloud Deployment",
+        "Monitoring and Logging",
+        "DevOps Project"
+      ],
+      "skills": [
+        "Git",
+        "GitHub",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "CI/CD",
+        "Cloud Deployment",
+        "Automation"
+      ],
+      "instructorInfo": "William Thomas is a Senior DevOps Engineer with over 15 years of experience in cloud infrastructure, CI/CD automation, Docker, Kubernetes, AWS, Azure, and enterprise deployment pipelines.",
+      "videos": [
+        {
+          "title": "DevOps Full Course",
+          "thumbnail": "https://img.youtube.com/vi/hQcFE0RD0cQ/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=hQcFE0RD0cQ"
+        },
+        {
+          "title": "Docker Tutorial",
+          "thumbnail": "https://img.youtube.com/vi/fqMOX6JJhGo/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=fqMOX6JJhGo"
+        },
+        {
+          "title": "Kubernetes Tutorial",
+          "thumbnail": "https://img.youtube.com/vi/X48VuDVv0do/maxresdefault.jpg",
+          "link": "https://www.youtube.com/watch?v=X48VuDVv0do"
+        }
+      ],
+      "materials": [
+        {
+          "title": "Docker Documentation",
+          "description": "Official Docker documentation.",
+          "link": "https://docs.docker.com/"
+        },
+        {
+          "title": "Kubernetes Documentation",
+          "description": "Official Kubernetes documentation.",
+          "link": "https://kubernetes.io/docs/"
+        },
+        {
+          "title": "Jenkins Documentation",
+          "description": "Official Jenkins documentation.",
+          "link": "https://www.jenkins.io/doc/"
+        },
+        {
+          "title": "Git Documentation",
+          "description": "Official Git documentation.",
+          "link": "https://git-scm.com/doc"
+        }
+      ],
+      "maxStudents": 100,
+      "language": "English",
+      "certificate": "Yes",
+      "enrollmentType": "Open",
+      "startDate": "",
+      "endDate": ""
+    }
+  ],
+  "students": [],
+  "admins": [],
+  "enrollments": [],
+  "session": {
+    "loggedInStudentId": null,
+    "loggedInAdminId": 1,
+    "resetRole": null,
+    "resetEmail": null
+  }
+}

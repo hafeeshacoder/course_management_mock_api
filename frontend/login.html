@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Login Portal</title>
+    <link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-btn">← Back to Home</a>
+
+        <h2>LOGIN PORTAL</h2>
+
+        <div class="tabs">
+            <button class="active" id="studentBtn" type="button">🎓 Student</button>
+            <button id="adminBtn" type="button">👨‍💼 Admin</button>
+        </div>
+
+        <p class="role-text" id="role">Student Login</p>
+
+        <form>
+            <div class="input-box">
+                <label>Email</label>
+                <input type="email" placeholder="Enter Email">
+            </div>
+
+            <div class="input-box">
+                <label>Password</label>
+                <input type="password" placeholder="Enter Password">
+            </div>
+
+            <div style="text-align:right;margin-top:-8px;margin-bottom:20px;">
+                <a href="forgot_password.html" style="color:var(--primary); text-decoration:none; font-size:14px; font-weight:bold;">
+                    Forgot Password?
+                </a>
+            </div>
+
+            <button type="button" class="login-btn">Login</button>
+        </form>
+
+        <div class="register">
+            <h3 id="registerTitle">New Student?</h3>
+            <p id="registerText">Don't have a student account?</p>
+            <a href="student_register.html" id="registerLink">Student Register</a>
+        </div>
+    </div>
+
+    <script type="module" src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:var(--font-body);
+}
+
+body{
+    background:var(--gradient-bg);
+    min-height:100vh;
+}
+
+/* Header */
+
+header{
+    background:var(--surface);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 8%;
+    border-bottom:3px solid var(--border);
+}
+
+.logo{
+    color:var(--text-dark);
+    font-size:30px;
+    font-weight:bold;
+}
+
+nav{
+    display:flex;
+    gap:30px;
+}
+
+nav a{
+    color:var(--text-dark);
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:var(--primary-dark);
+}
+
+/* Courses */
+
+.features{
+    padding:40px 8%;
+}
+
+.features h2{
+    text-align:center;
+    color:var(--text-dark);
+    font-size:38px;
+    margin-bottom:40px;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
+
+.card{
+    width:380px;
+    min-height:280px;
+    background:white;
+    padding:35px;
+    border-radius:8px;
+    text-align:center;
+    box-shadow:var(--shadow-lg);
+    transition:.3s;
+border:3px solid var(--border);}
+
+.card h3{
+    color: var(--primary-deep);
+    margin-bottom:18px;
+    font-size:28px;
+}
+
+.card p{
+    color:var(--text-muted);
+    line-height:30px;
+    font-size:17px;
+    margin-bottom:25px;
+}
+.card img{
+    width:90px;
+    height:90px;
+    margin-bottom:20px;
+}
+.btn{
+    background:var(--primary);
+    color:white;
+    border:3px solid var(--border);
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+box-shadow:var(--shadow-sm);
+}
+
+.btn:active{
+    transform:translate(4px,4px);
+    box-shadow:none;
+}
+
+
+.btn:hover{
+    background:var(--primary-dark);
+}
+
+/* Course Details */
+
+#courseDetails{
+    display:none;
+    width:80%;
+    margin:40px auto;
+    background:white;
+    padding:40px;
+    border-radius:8px;
+    box-shadow:var(--shadow-lg);
+border:3px solid var(--border);}
+
+#courseDetails h2{
+    color:var(--primary-deep);
+    font-size:36px;
+    margin-bottom:25px;
+}
+
+#courseDetails p{
+    font-size:18px;
+    line-height:34px;
+    margin-bottom:18px;
+    text-align:justify;
+}
+
+footer{
+    background:var(--surface-alt);
+    color:var(--text-dark);
+    text-align:center;
+    padding:20px;
+    margin-top:40px;border-top:3px solid var(--border);}
+.logout-btn{
+    background:var(--danger);
+    color:white;
+    border:3px solid var(--border);
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:bold;
+    transition:.3s;
+box-shadow:var(--shadow-sm);
+}
+
+.logout-btn:active{
+    transform:translate(4px,4px);
+    box-shadow:none;
+}
+
+
+.logout-btn:hover{
+    background:var(--danger-dark);
+}
+/*================ HEADINGS FONT ================*/
+
+h1,h2,h3,h4,.logo,.hero-text h1{
+    font-family:var(--font-heading);
+}

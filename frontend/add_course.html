@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Add Course</title>
+
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/add_course.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+EduBloom Admin
+
+</div>
+
+<nav>
+
+
+
+<a href="admin_dashboard.html">Dashboard</a>
+<button id="logoutBtn" class="logout-btn">
+            Logout
+        </button>
+
+</nav>
+</header>
+
+<div class="container">
+
+<div class="banner">
+
+<h1>Add New Course</h1>
+
+<p>
+
+Create a new course by entering all the required information.
+The course will be available for students after publishing.
+
+</p>
+
+</div>
+
+<!-- ================= COURSE INFORMATION ================= -->
+
+<div class="form-box">
+
+<h2>Course Information</h2>
+
+<div class="form-grid">
+
+<div class="input-box">
+
+<label>Course Name</label>
+
+<input
+type="text"
+placeholder="Enter Course Name" id="courseName">
+
+</div>
+
+<div class="input-box">
+
+<label>Course Code</label>
+
+<input
+type="text"
+placeholder="Example: CS101" id="courseCode">
+
+</div>
+
+<div class="input-box">
+
+<label>Instructor Name</label>
+
+<input
+type="text"
+placeholder="Enter Instructor Name" id="instructor">
+
+</div>
+
+<div class="input-box">
+
+<label>Duration</label>
+
+<input
+type="text"
+placeholder="Example: 8 Weeks" id="duration">
+
+</div>
+
+<div class="input-box">
+
+<label>Course Level</label>
+
+<select id="level">
+
+<option>Select Level</option>
+
+<option>Beginner</option>
+
+<option>Intermediate</option>
+
+<option>Advanced</option>
+
+</select>
+
+</div>
+
+<div class="input-box">
+
+<label>Category</label>
+
+<select id="category">
+
+<option>Select Category</option>
+
+<option>Programming</option>
+
+<option>Web Development</option>
+
+<option>Database</option>
+
+<option>Artificial Intelligence</option>
+
+<option>Machine Learning</option>
+
+<option>Cloud Computing</option>
+
+<option>Cyber Security</option>
+
+<option>Mobile App Development</option>
+
+<option>DevOps</option>
+
+</select>
+
+</div>
+
+<div class="input-box">
+
+<label>Course Image URL</label>
+
+<input
+type="text"
+placeholder="Paste Image URL" id="image">
+
+</div>
+
+<div class="input-box">
+
+<label>Status</label>
+
+<select id="status">
+
+<option>Active</option>
+
+<option>Draft</option>
+
+<option>Inactive</option>
+
+</select>
+
+</div>
+
+</div>
+
+</div>
+<!-- ================= COURSE DESCRIPTION ================= -->
+
+<div class="form-box">
+
+<h2>Course Description</h2>
+
+<div class="input-box">
+
+<label>Course Overview</label>
+
+<textarea
+placeholder="Enter a detailed overview of the course, its objectives, learning approach and expected outcomes." id="overview">
+</textarea>
+
+</div>
+
+</div>
+
+<!-- ================= LEARNING OUTCOMES ================= -->
+
+<div class="form-box">
+
+<h2>Learning Outcomes</h2>
+
+<div class="form-grid">
+
+<div class="input-box">
+
+<label>Outcome 1</label>
+
+<input
+type="text"
+placeholder="Example: Understand programming fundamentals" id="outcome">
+
+</div>
+
+<div class="input-box">
+
+<label>Outcome 2</label>
+
+<input
+type="text"
+placeholder="Example: Build real-world applications" id="outcome2">
+
+</div>
+
+<div class="input-box">
+
+<label>Outcome 3</label>
+
+<input
+type="text"
+placeholder="Example: Develop problem-solving skills" id="outcome3">
+
+</div>
+
+<div class="input-box">
+
+<label>Outcome 4</label>
+
+<input
+type="text"
+placeholder="Example: Work with industry tools" id="outcome4">
+
+</div>
+
+<div class="input-box">
+
+<label>Outcome 5</label>
+
+<input
+type="text"
+placeholder="Example: Prepare for certification" id="outcome5">
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ================= PREREQUISITES ================= -->
+
+<div class="form-box">
+
+<h2>Course Prerequisites</h2>
+
+<div class="form-grid">
+
+<div class="input-box">
+
+<label>Prerequisite 1</label>
+
+<input
+type="text"
+placeholder="Example: Basic Computer Knowledge" id="prerequistite1">
+
+</div>
+
+<div class="input-box">
+
+<label>Prerequisite 2</label>
+
+<input
+type="text"
+placeholder="Example: Internet Access" id="prerequisite2">
+
+</div>
+
+<div class="input-box">
+
+<label>Prerequisite 3</label>
+
+<input
+type="text"
+placeholder="Example: No prior programming experience required" id="prerequisite3">
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ================= COURSE SYLLABUS ================= -->
+
+<div class="form-box">
+
+<h2>Course Syllabus</h2>
+
+<div class="form-grid">
+
+<div class="input-box">
+
+<label>Module 1</label>
+
+<input
+type="text"
+placeholder="Introduction and Course Overview" id="module1">
+
+</div>
+
+<div class="input-box">
+
+<label>Module 2</label>
+
+<input
+type="text"
+placeholder="Core Concepts" id="module2">
+
+</div>
+
+<div class="input-box">
+
+<label>Module 3</label>
+
+<input
+type="text"
+placeholder="Practical Sessions" id="module3">
+
+</div>
+
+<div class="input-box">
+
+<label>Module 4</label>
+
+<input
+type="text"
+placeholder="Mini Project"id ="module4"> 
+
+</div>
+
+<div class="input-box">
+
+<label>Module 5</label>
+
+<input
+type="text"
+placeholder="Assessment and Certification" id="module5">
+
+</div>
+
+</div>
+
+</div>
+<!-- ================= VIDEO LESSONS ================= -->
+
+<div class="form-box">
+
+<h2>Video Lessons</h2>
+
+<div class="form-grid">
+
+<div class="input-box">
+
+<label>Video Lesson 1</label>
+
+<input
+type="url"
+placeholder="https://www.youtube.com/watch?v=..." id="v1">
+
+</div>
+
+<div class="input-box">
+
+<label>Video Lesson 2</label>
+
+<input
+type="url"
+placeholder="https://www.youtube.com/watch?v=..." id="v2">
+
+</div>
+
+<div class="input-box">
+
+<label>Video Lesson 3</label>
+
+<input
+type="url"
+placeholder="https://www.youtube.com/watch?v=..." id="v3">
+
+</div>
+
+<div class="input-box">
+
+<label>Video Lesson 4</label>
+
+<input
+type="url"
+placeholder="https://www.youtube.com/watch?v=..." id="v4">
+
+</div>
+
+<div class="input-box">
+
+<label>Video Lesson 5</label>
+
+<input
+type="url"
+placeholder="https://www.youtube.com/watch?v=..." id="v5">
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ================= COURSE MATERIALS ================= -->
+
+<div class="form-box">
+
+<h2>Course Materials</h2>
+
+<div class="form-grid">
+
+<div class="input-box">
+
+<label>Lecture Notes (PDF)</label>
+
+<input
+type="text"
+placeholder="Python Notes.pdf" id="l1">
+
+</div>
+
+<div class="input-box">
+
+<label>Lab Manual</label>
+
+<input
+type="text"
+placeholder="Python Lab Manual.pdf" id="lab">
+
+</div>
+
+
+
+<div class="input-box">
+
+<label>Reference Book</label>
+
+<input
+type="text"
+placeholder="Programming Reference.pdf" id="reference">
+
+</div>
+
+<div class="input-box">
+
+<label>Additional Resources</label>
+
+<input
+type="text"
+placeholder="GitHub / Documentation / Website"id="additional">
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ================= COURSE SETTINGS ================= -->
+
+<div class="form-box">
+
+<h2>Course Settings</h2>
+
+<div class="form-grid">
+
+<div class="input-box">
+
+<label>Maximum Students</label>
+
+<input
+type="number"
+placeholder="100" id="maxstudents">
+
+</div>
+
+<div class="input-box">
+
+<label>Course Language</label>
+
+<select id="courselanguage">
+
+<option>English</option>
+
+<option>Tamil</option>
+
+<option>Hindi</option>
+
+</select>
+
+</div>
+
+<div class="input-box">
+
+<label>Certificate Available</label>
+
+<select id="certificateavailability">
+
+<option>Yes</option>
+
+<option>No</option>
+
+</select>
+
+</div>
+
+<div class="input-box">
+
+<label>Enrollment Type</label>
+
+<select id="enrollmenttype">
+
+<option>Open</option>
+
+<option>Approval Required</option>
+
+</select>
+
+</div>
+
+<div class="input-box">
+
+<label>Course Start Date</label>
+
+<input type="date" id="sd">
+
+</div>
+
+<div class="input-box">
+
+<label>Course End Date</label>
+
+<input type="date" id="ed">
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ================= COURSE PREVIEW ================= -->
+
+<div class="form-box">
+
+<h2>Course Preview</h2>
+
+<div style="text-align:center;">
+
+<img
+
+src="https://picsum.photos/900/350"
+
+id="previewImage"
+
+style="width:100%;max-width:900px;border-radius:15px;box-shadow:0 8px 20px rgba(0,0,0,.2);">
+
+<p style="margin-top:15px;color:var(--text-muted);">
+
+The selected course image will appear here after backend integration.
+
+</p>
+
+</div>
+
+</div>
+
+<!-- ================= ACTION BUTTONS ================= -->
+
+<div class="form-box">
+
+<div
+style="
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;">
+
+<button
+id="publishBtn"
+style="
+padding:15px 35px;
+background:var(--primary);
+color:white;
+border:none;
+border-radius:10px;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;">
+
+Publish Course
+
+</button>
+
+<button
+id="draftBtn"
+style="
+padding:15px 35px;
+background:var(--secondary);
+color:white;
+border:none;
+border-radius:10px;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;">
+
+Save Draft
+
+</button>
+
+<button
+type="reset" id="resetBtn"
+style="
+padding:15px 35px;
+background:var(--text-muted);
+color:white;
+border:none;
+border-radius:10px;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;">
+
+Reset
+
+</button>
+
+<button
+onclick="window.location.href='admin_dashboard.html'"
+style="
+padding:15px 35px;
+background:var(--danger);
+color:white;
+border:none;
+border-radius:10px;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;">
+
+Back
+
+</button>
+
+</div>
+
+</div>
+</div>
+<!-- ================= FOOTER ================= -->
+
+<footer style="
+text-align:center;
+padding:25px;
+color:white;
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(8px);">
+
+<p>
+
+© 2026 EduBloom | Administrator Panel
+
+</p>
+
+
+</footer>
+
+<script src="js/add_course.js"></script>
+</body>
+
+</html>

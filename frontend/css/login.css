@@ -1,0 +1,191 @@
+
+		*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:var(--font-body);
+}
+
+body{
+	    background:var(--gradient-bg);
+
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+
+}
+
+.container{
+width:520px;
+background:white;
+padding:45px;
+border-radius:8px;
+box-shadow:var(--shadow-lg);
+border-top:8px solid var(--primary);
+border:3px solid var(--border);}
+
+h2{
+    color:var(--primary-deep);
+    font-size:32px;
+}
+
+.tabs{
+display:flex;
+margin-bottom:25px;
+border-radius:10px;
+overflow:hidden;
+}
+
+.tabs button{
+width:50%;
+padding:15px;
+border:none;
+background:var(--border-soft);
+font-size:16px;
+font-weight:bold;
+cursor:pointer;
+transition:.3s;
+}
+
+.tabs button.active{
+    background:var(--primary);
+}
+
+.role-text{
+text-align:center;
+font-size:18px;
+font-weight:bold;
+margin-bottom:25px;
+color:var(--text-muted);
+}
+
+.input-box{
+margin-bottom:20px;
+}
+
+.input-box label{
+display:block;
+margin-bottom:8px;
+font-weight:bold;
+}
+
+.input-box input{
+width:100%;
+padding:14px;
+border:2px solid var(--border);
+border-radius:10px;
+font-size:15px;
+}
+
+.input-box input:focus{
+outline:none;
+border-color:var(--primary);
+}
+
+.login-btn{
+width:100%;
+padding:15px;
+  background:var(--primary);
+color:white;
+border:3px solid var(--border);
+border-radius:10px;
+font-size:17px;
+font-weight:bold;
+cursor:pointer;
+transition:.3s;
+box-shadow:var(--shadow-sm);
+}
+
+.login-btn:active{
+    transform:translate(4px,4px);
+    box-shadow:none;
+}
+
+
+.login-btn:hover{
+background:var(--primary-dark);
+}
+
+.register{
+margin-top:25px;
+padding-top:20px;
+border-top:1px solid var(--border);
+text-align:center;
+}
+
+.register h3{
+color:var(--primary-deep);
+margin-bottom:10px;
+}
+
+.register p{
+margin-bottom:15px;
+}
+
+.register a{
+display:inline-block;
+padding:12px 25px;
+ background:var(--primary);
+color:white;
+text-decoration:none;
+border-radius:8px;
+transition:.3s;
+}
+
+.register a:hover{
+ background:var(--primary-dark);
+}
+/* Back Button */
+
+.back-btn{
+
+display:inline-block;
+
+margin-bottom:20px;
+
+padding:10px 18px;
+
+background:var(--text-muted);
+
+color:white;
+
+text-decoration:none;
+
+border-radius:8px;
+
+font-weight:bold;
+
+transition:.3s;
+border:3px solid var(--border);
+box-shadow:var(--shadow-sm);
+}
+
+.back-btn:active{
+    transform:translate(4px,4px);
+    box-shadow:none;
+}
+
+
+.back-btn:hover{
+
+background:var(--text-dark);
+
+}
+.tabs {
+    position: relative;
+    z-index: 9999;
+}
+
+.tabs button {
+    position: relative;
+    z-index: 10000;
+    pointer-events: auto;
+    cursor: pointer;
+}
+/*================ HEADINGS FONT ================*/
+
+h1,h2,h3,h4,.logo,.hero-text h1{
+    font-family:var(--font-heading);
+}

@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Course Details</title>
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/course_details.css">
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+EduBloom
+
+</div>
+
+<nav>
+
+<a href="student_dashboard.html">Dashboard</a>
+
+<a href="courses.html">Explore Courses</a>
+
+<a href="my_courses.html">My Courses</a>
+<button id="logoutBtn" class="logout-btn">
+            Logout
+        </button>
+
+
+
+</nav>
+
+</header>
+
+<div class="container">
+
+<!--================ HERO SECTION ================-->
+
+<div class="hero">
+
+<div class="hero-content">
+
+<h1 id="title">
+
+Course Name
+
+</h1>
+
+<p id="overview">
+
+Course overview will appear here after selecting a course.
+
+</p>
+
+</div>
+
+<div class="hero-image">
+
+<img
+
+id="courseImage"
+
+src=""
+
+alt="Course Image">
+
+</div>
+
+</div>
+
+<!--================ COURSE INFO ================-->
+
+<div class="info-grid">
+
+<div class="info-card">
+
+<h3>Duration</h3>
+
+<p id="duration"></p>
+
+</div>
+
+<div class="info-card">
+
+<h3>Instructor</h3>
+
+<p id="instructor"></p>
+
+</div>
+
+<div class="info-card">
+
+<h3>Level</h3>
+
+<p id="level"></p>
+
+</div>
+
+<div class="info-card">
+
+<h3>Mode</h3>
+
+<p id="mode"></p>
+
+</div>
+
+</div>
+<!--================ COURSE OVERVIEW =================-->
+
+<div class="section">
+
+<h2>Course Overview</h2>
+
+<p id="courseDescription">
+
+The complete course description will be displayed here based on the
+selected course. Students can learn about the objectives, topics
+covered, and overall learning experience before enrolling.
+
+</p>
+
+</div>
+
+<!--================ COURSE MODULES =================-->
+
+<div class="section">
+
+<h2>Course Modules</h2>
+
+<p>
+
+The course syllabus is divided into multiple structured modules,
+allowing learners to progress from foundational concepts to
+advanced applications.
+
+</p>
+
+<div id="modules" class="grid">
+
+<!-- JavaScript will generate course modules -->
+
+</div>
+
+</div>
+
+<!--================ SKILLS YOU WILL GAIN =================-->
+
+<div class="section">
+
+<h2>Skills You'll Gain</h2>
+
+<p>
+
+After completing this course successfully, learners will develop
+technical knowledge and practical skills that can be applied in
+real-world projects.
+
+</p>
+
+<div id="skills" class="grid">
+
+<!-- JavaScript will generate skills -->
+
+</div>
+
+</div>
+
+<!--================ LEARNING OUTCOMES =================-->
+
+<div class="section">
+
+<h2>Learning Outcomes</h2>
+
+<p>
+
+Upon successful completion of this course, students will be able to
+apply theoretical concepts, solve practical problems, and build
+industry-level applications.
+
+</p>
+
+<div id="outcomes" class="grid">
+
+<!-- JavaScript will generate outcomes -->
+
+</div>
+
+</div>
+
+
+<!--================ PREREQUISITES =================-->
+
+<div class="section">
+
+<h2>Prerequisites</h2>
+
+<p>
+
+Although this course is designed for learners of all levels,
+having some basic knowledge related to the subject will help you
+understand concepts more efficiently.
+
+</p>
+
+<div id="prerequisites" class="grid">
+
+<!-- JavaScript will generate prerequisites -->
+
+</div>
+
+</div>
+
+<!--================ COURSE FEATURES =================-->
+
+<div class="section">
+
+<h2>Course Features</h2>
+
+<p>
+
+This course has been carefully designed to provide a practical,
+interactive and industry-oriented learning experience.
+
+</p>
+
+<div class="grid">
+
+<div class="skill-card">
+
+<h3>📚 Structured Learning</h3>
+
+<p>
+
+Well-organized modules covering concepts step by step from beginner
+to advanced level.
+
+</p>
+
+</div>
+
+<div class="skill-card">
+
+<h3>💡 Practical Examples</h3>
+
+<p>
+
+Real-world examples and demonstrations to improve conceptual
+understanding.
+
+</p>
+
+</div>
+
+<div class="skill-card">
+
+<h3>📝 Assignments</h3>
+
+<p>
+
+Hands-on practice exercises and assignments to reinforce learning.
+
+</p>
+
+</div>
+
+<div class="skill-card">
+
+<h3>🎯 Industry Ready</h3>
+
+<p>
+
+Course content follows current industry standards and best practices.
+
+</p>
+
+</div>
+
+<div class="skill-card">
+
+<h3>📈 Progress Tracking</h3>
+
+<p>
+
+Track your learning progress after enrolling in the course.
+
+</p>
+
+</div>
+
+<div class="skill-card">
+
+<h3>🏆 Certificate</h3>
+
+<p>
+
+Receive a certificate after successfully completing the course.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!--================ INSTRUCTOR INFORMATION =================-->
+
+<div class="section">
+
+<h2>Instructor Information</h2>
+
+<div
+style="
+background:var(--surface-alt);
+padding:25px;
+border-left:6px solid var(--primary);
+border-radius:15px;">
+
+<h3
+id="instructorName"
+style="
+color:var(--primary-deep);
+margin-bottom:15px;">
+
+Instructor Name
+
+</h3>
+
+<p
+id="instructorInfo"
+style="line-height:30px;">
+
+Instructor profile and professional experience
+will be displayed here.
+
+</p>
+
+</div>
+
+</div>
+
+<!--================ STUDENT REVIEWS =================-->
+
+<div class="section">
+
+<h2>Student Reviews</h2>
+
+<p>
+
+Students who complete this course can share their feedback and
+learning experience here.
+
+</p>
+
+<div class="grid">
+
+<div class="skill-card">
+
+<h3>⭐⭐⭐⭐⭐ Excellent Learning Experience</h3>
+
+<p>
+
+Students' reviews and ratings will appear here after backend
+integration.
+
+</p>
+
+</div>
+
+<div class="skill-card">
+
+<h3>⭐⭐⭐⭐⭐ Practical Knowledge</h3>
+
+<p>
+
+Course feedback from enrolled learners will be displayed here.
+
+</p>
+
+</div>
+
+<div class="skill-card">
+
+<h3>⭐⭐⭐⭐⭐ Recommended Course</h3>
+
+<p>
+
+Verified student reviews will be shown after course completion.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!--================ ACTION BUTTONS =================-->
+
+<div
+style="
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin:40px 0;">
+
+<button
+class="enroll-btn"
+onclick="enrollCourse()">
+
+Enroll Now
+
+</button>
+
+<button
+class="back-btn"
+onclick="window.location.href='courses.html'">
+
+Back to Courses
+
+</button>
+
+</div>
+
+
+
+</div>
+<footer>
+
+
+© 2026 EduBloom | Learn • Practice • Grow
+</footer>
+
+<script src="js/course_details.js"></script>
+
+
+</body>
+</html>

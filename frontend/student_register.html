@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Registration</title>
+
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/student_register.css">
+</head>
+
+<body>
+
+<div class="container">
+    <a href="index.html" class="back-btn">
+    ← Back to Home
+</a>
+
+<h2>Student Registration</h2>
+
+<form id="registerForm">
+
+<div class="input-box">
+<label>Student Name</label>
+<input type="text" placeholder="Enter Full Name" id="studentName" required>
+</div>
+
+<div class="input-box">
+<label>Student ID</label>
+<input type="text" placeholder="Enter Student ID" id="studentId" required>
+</div>
+
+<div class="input-box">
+<label>Email Address</label>
+<input type="email" placeholder="Enter Email" id="studentEmail" required>
+</div>
+
+<div class="input-box">
+<label>Department</label>
+
+<select id="department" required>
+<option value="">Select Department</option>
+<option>Computer Science</option>
+<option>Information Technology</option>
+<option>Electronics & Communication</option>
+<option>Electrical & Electronics</option>
+<option>Mechanical Engineering</option>
+<option>Civil Engineering</option>
+</select>
+
+</div>
+
+<div class="input-box">
+<label>Password</label>
+<input type="password" placeholder="Create Password" id="password" required>
+</div>
+
+<div class="input-box">
+<label>Confirm Password</label>
+<input type="password" placeholder="Confirm Password"id="confirmPassword" required>
+</div>
+
+<button type="submit" id="registerBtn">Register</button>
+
+</form>
+
+<div class="login"> 
+
+<p>Already have an account?</p>
+
+<a href="login.html">Login Here</a>
+
+</div>
+
+</div>
+<script src="js/student_register.js"></script>
+</body>
+</html>
+
+
+```
